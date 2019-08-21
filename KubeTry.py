@@ -1,3 +1,4 @@
+#getting Pod and it's Node IP address and pairing it to the dictionary
 from kubernetes import client, config
 
 config.load_kube_config()
